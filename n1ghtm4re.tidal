@@ -103,9 +103,8 @@ d1
         ]
   ]
 
-d2 $ s "sheffield/8" # gain 0.8
-
 do
+  d2 $ s "sheffield/8" # gain 0.8
   d3 $ fast 2 $ s "less"
   xfadeIn 1 2
     $ stack [
